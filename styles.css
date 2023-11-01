@@ -85,4 +85,17 @@ body {
 
 }
 
+
+
+ .imgposition {
+     position: relative;
+ }
+
+.bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
 /* Add more styles as needed for your pages */

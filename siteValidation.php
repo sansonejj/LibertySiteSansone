@@ -6,25 +6,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<div class="navigation">
+<div class="bottom-right">
     <?php
-    // include statement for php file will go here
-    ?>
-
-</div>
-
-<div class="page-header">
-    <?php
-    echo "<h1>Page Header</h1>";
+    $imageSource = 'valid-xhtml10.png';
+    echo "<img src='$imageSource' alt='Your Image' width='50' height='25'>";
     ?>
 </div>
 
-<div class="paragraph">
-    <?php
-    // Use echo to add a paragraph
-    echo "<p>Body stuff goes here</p>";
-    ?>
-</div>
 
 </body>
 </html>

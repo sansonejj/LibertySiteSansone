@@ -33,7 +33,11 @@
    include 'pageModifiedDate.php';
     ?>
 </div>
-
+<div class="bottom-right">
+    <?php
+    include 'siteValidation.php'
+    ?>
+</div>
 <!--  -->
 </body>
 </html>
