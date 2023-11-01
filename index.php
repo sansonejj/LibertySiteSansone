@@ -29,15 +29,11 @@
 
 <div class="custom-class1">
     <?php
-    include 'pageModifiedDate.php';
+    include 'siteValidation.php';
     ?>
 </div>
 
-<div class="bottom-right">
-    <?php
-        include 'siteValidation.php'
-    ?>
-</div>
+
 
 <!--  -->
 </body>
