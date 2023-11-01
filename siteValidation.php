@@ -9,7 +9,8 @@
 <div class="bottom-right">
     <?php
     $imageSource = 'valid-xhtml10.png';
-    echo "<img src='$imageSource' alt='Your Image' width='50' height='25'>";
+    //Reference: https://www.w3schools.com/html/html_images.asp
+    echo "<img src='$imageSource' alt='XHTML 1.0' width='50' height='25'>";
     ?>
 </div>
 
