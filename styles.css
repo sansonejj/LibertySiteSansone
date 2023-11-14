@@ -1,6 +1,6 @@
 /* Define your custom CSS classes here */
 .custom-class1 {
-    position:fixed;
+    position: relative;
     bottom:0;
     left:0;
     width:100%;
@@ -95,5 +95,33 @@ body {
     right: 0;
 }
 
+.column {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
 
+.body_centered
+{
+    padding: 20px;
+    font-size: 20px;
+    line-height: 2;
+    color: black;
+    ;
+}
+
+form {
+        display: inline;
+    position: relative;
+
+}
+
+label {
+    text-align-all: left;
+
+
+ }
 /* Add more styles as needed for your pages */

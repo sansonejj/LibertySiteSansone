@@ -2,10 +2,12 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
 <head>
     <?php include 'variables.php' ?>
     <title><?php echo $employee3_name ?></title>
         <link rel="stylesheet" type="text/css" href="styles.css" />
+
 
 </head>
 <body>
@@ -24,6 +26,7 @@
 </div>
 
 <div class="body">
+
     <ul style="list-style: none;">
         <img src="emp_AL.jpg" alt="<?php echo $employee3_name; ?>" width="300">
         <li>Job Title: <?php echo $employee3_job_title; ?></li>
