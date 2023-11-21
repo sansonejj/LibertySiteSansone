@@ -1,5 +1,12 @@
-<!-- xhtml headings reference by https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html-->
+<?php
+session_start();
 
+if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
+    header('Location: Week 4/loginForm.php'); // Redirect if not authenticated
+    exit();
+}
+?>
+<!-- xhtml headings reference by https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
@@ -74,7 +81,8 @@
     include 'siteValidation.php';
     ?>
 </div>
-
-<!--  -->
+<?php
+include 'click_logout.php'
+?>
 </body>
 </html>
