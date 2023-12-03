@@ -1,4 +1,5 @@
 <?php
+include '../authenticated.php';
 include '../sessions.php';
 ?>
 <!-- xhtml headings reference by https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html-->

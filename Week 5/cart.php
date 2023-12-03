@@ -1,4 +1,5 @@
 <?php
+include '../authenticated.php';
 include '../sessions.php';
 include 'products/product_variables.php'
  ?>
@@ -126,7 +127,8 @@ include 'products/product_variables.php'
     ?>
 </div>
 
-<?php include '../click_logout.php'; ?>
-
+<?php
+include '../click_logout.php'
+?>
 </body>
 </html>

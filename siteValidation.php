@@ -16,7 +16,7 @@
             <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS" />
 
         </a>
-         <br><img src="../images/social_media/facebook.png" alt="Facebook">
+         <img src="../images/social_media/facebook.png" alt="Facebook">
          <img src="../images/social_media/linkedin.png" alt="LinkedIn">
     <!--Reference: https://stackoverflow.com/questions/26183595/how-to-get-date-page-was-last-modified-using-php -->
     <br><p>Last modified: <?php echo date("F d, Y H:i:s.", getlastmod()); ?></p>
