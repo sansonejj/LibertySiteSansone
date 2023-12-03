@@ -1,5 +1,4 @@
 <?php
-// Include this part in the footer of your pages where you want the logout link
 
 echo '<div class="footer">';
 

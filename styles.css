@@ -9,9 +9,23 @@
 
 }
 
-.custom-class2 {
-    /* Your styles here */
+.navigation {
+    position: relative;
 }
+
+#shoppingCart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto; /* or a specific width like 300px */
+    max-width: 100%; /* to ensure it doesn't go off screen */
+    overflow: visible; /* adds scroll if content overflows */
+    box-sizing: border-box; /* includes padding and border in width/height */
+    /* Add padding if necessary */
+    padding: 10px;
+    font-size: medium;
+}
+
 
 .custom-class3 {
     /* Your styles here */
@@ -124,4 +138,37 @@ label {
 
 
  }
-/* Add more styles as needed for your pages */
+
+.view-cart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.view-cart-button:hover {
+    background-color: #0056b3;
+}
+
+.centered-form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+.centered-form td {
+    padding: 5px;
+}
+
+.centered-form .label-cell {
+    text-align: right;
+}
+
+.centered-form .input-cell {
+    text-align: left;
+}
+

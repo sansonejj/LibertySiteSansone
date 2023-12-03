@@ -1,9 +1,9 @@
-<?php /** @noinspection ALL */
+<?php
 session_start();
 
 if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     //Reference for header: https://libertyonline.vitalsource.com/reader/books/9781492054085/epubcfi/6/30%5B%3Bvnd.vst.idref%3Dchapter-idm45922770165944%5D!/4/2/2%5Bweb_techniques%5D/14/2%5Bsetting_response_headers%5D/16/2%5Bdifferent_content_types%5D/4/9:39%5Be%20a%2Cs%20p%5D
-    header('Location: Week 4/loginForm.php'); // Redirect if not authenticated
+    header('Location: ../Week 4/loginForm.php'); // Redirect if not authenticated
     exit();
 }
 ?>
@@ -81,7 +81,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     include($_SERVER['DOCUMENT_ROOT'] .  '/siteValidation.php');
     ?>
 </div>
-
-<!--  -->
+<?php
+include '../click_logout.php'
+?>
 </body>
 </html>

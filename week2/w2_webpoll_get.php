@@ -42,8 +42,8 @@ https://libertyonline.vitalsource.com/books/9781492054085 Chapter 8-->
         <div class="column">
             <h3>GoldElite Radio Dispatch</h3>
             <!-- Reference: https://www.php.net/manual/en/function.include.php used for locating file in another directory -->
-            <img src="\images\products\mcc7500.png" alt="GoldElite Radio Console">
-            <p>This customizable user interface allows 911 dispatchers to effictivley manage radio traffic. </p>
+            <img src="..\images\products\mcc7500.png" alt="GoldElite Radio Console">
+            <p>This customizable user interface allows 911 dispatchers to effectivity manage radio traffic. </p>
 
             <label>How would you rate this product?:</label><br>
             <input type="radio" name="item1rating" value="Excellent"> Excellent

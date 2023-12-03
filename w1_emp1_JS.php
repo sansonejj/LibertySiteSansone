@@ -1,11 +1,7 @@
 <?php
-session_start();
-
-if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
-    header('Location: ../Week 4/loginForm.php'); // Redirect if not authenticated
-    exit();
-}
+include 'authenticated.php'
 ?>
+<?php include 'sessions.php' ?>
 
 <!-- xhtml headings reference by https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html-->
 
@@ -22,7 +18,22 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     <?php
     include 'week1Nav.php'
     ?>
+    <style>
+        .navigation {
+            position: relative;
+        }
 
+        #shoppingCart {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: white;
+        }
+    </style>
+
+    <div id="shoppingCart">
+        <?php include 'Week 5/shopping_cart.php'; ?>
+    </div>
 
 </div>
 
