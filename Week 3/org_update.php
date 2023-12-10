@@ -15,7 +15,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 <head>
     <title>Modify Employee Details</title>
     <!-- The link below points to the CSS styles sheet where my 3 custom CSS classes are located -->
-    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
 
 </head>
 <body>
@@ -51,6 +51,8 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                 echo "<option value='employee$employeeNumber'>$name</option>";
 
             }
+
+
             ?>
 
         </select>
@@ -74,6 +76,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 
         <input type="submit" value="Update">
     </form>
+    <br><a href="../Week 6/comment_management.php">Manage Site Comments</a>
 </div>
 
 <div class="custom-class1">

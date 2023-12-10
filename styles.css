@@ -118,13 +118,29 @@ body {
     text-align: center;
 }
 
-.body_centered
-{
+.body_centered {
     padding: 20px;
     font-size: 20px;
     line-height: 2;
     color: black;
-    ;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.body_centered table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.body_centered th, .body_centered td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* Center align text in cells */
+}
+
+.body_centered th {
+    background-color: #f2f2f2;
 }
 
 form {
