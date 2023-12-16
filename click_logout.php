@@ -13,7 +13,7 @@ echo '<script>
 function confirm_Logout() {
     const confirmation = confirm("Confirm Logout?");
     if (confirmation) {
-        window.location.href = "../Week 4/logout.php";
+        window.location.href = "/Week 4/logout.php";
     }
     return false; 
 }

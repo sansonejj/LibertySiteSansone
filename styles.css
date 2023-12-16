@@ -17,18 +17,17 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: auto; /* or a specific width like 300px */
-    max-width: 100%; /* to ensure it doesn't go off screen */
-    overflow: visible; /* adds scroll if content overflows */
-    box-sizing: border-box; /* includes padding and border in width/height */
-    /* Add padding if necessary */
+    width: auto;
+    max-width: 100%;
+    overflow: visible;
+    box-sizing: border-box;
     padding: 10px;
     font-size: medium;
 }
 
 
 .custom-class3 {
-    /* Your styles here */
+
 }
 
 /* Add styles for the navigation menu */
@@ -124,8 +123,8 @@ body {
     line-height: 2;
     color: black;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .body_centered table {
@@ -136,7 +135,7 @@ body {
 .body_centered th, .body_centered td {
     border: 1px solid black;
     padding: 8px;
-    text-align: center; /* Center align text in cells */
+    text-align: center;
 }
 
 .body_centered th {
@@ -188,3 +187,23 @@ label {
     text-align: left;
 }
 
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+
+.input {
+    flex: 2;
+}

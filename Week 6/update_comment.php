@@ -1,6 +1,7 @@
 <?php
 include '../database/database_connection.php';
-include '../authenticated.php';
+include '../sessions.php';
+checkUserGroup(['1', '2']); //1= Administrator, 2= Publisher, 3= Customer
 ?>
 <!-- xhtml headings reference by https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html-->
 
@@ -15,7 +16,7 @@ include '../authenticated.php';
 <body>
 <div class="navigation">
     <?php
-    include 'Week 5/week5Nav.php';
+    include '../Week 8/admin_nav.php';
     ?>
 </div>
 

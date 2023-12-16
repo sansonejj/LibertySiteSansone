@@ -1,6 +1,10 @@
 <?php
 include '../database/database_connection.php';
-include '../authenticated.php';
+//include '../authenticated.php';
+include '../sessions.php';
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+checkUserGroup(['1']); //1= Administrator, 2= Publisher, 3= Customer
 
 if(isset($_GET['id']) && is_numeric($_GET['id'])) {
     $comment_id = $_GET['id'];
@@ -16,7 +20,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
         echo "Error deleting record: " . $conn->error;
     }
 
-    // end the connection
+    // term the connection
     $stmt->close();
 } else {
     echo "Invalid request";

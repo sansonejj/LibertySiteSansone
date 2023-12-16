@@ -9,24 +9,9 @@
 <body>
 <div class="navigation">
     <?php
-    include 'week1Nav.php'
+    include 'Week 5/week5Nav.php';
     ?>
-    <style>
-        .navigation {
-            position: relative;
-        }
 
-        #shoppingCart {
-            position: absolute;
-            top: 0;
-            right: 0;
-            color: white;
-        }
-    </style>
-
-    <div id="shoppingCart">
-        <?php include 'Week 5/shopping_cart.php'; ?>
-    </div>
 </div>
 
 <div class="page-header">

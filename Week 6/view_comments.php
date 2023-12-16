@@ -18,7 +18,7 @@
 
 <div class="page-header">
     <?php
-    echo "<h1>View Comments</h1>";
+    echo "<h1>View Comments and Prayer Requests</h1>";
     ?>
 </div>
 
@@ -30,7 +30,7 @@
 
     if ($result->num_rows > 0) {
         echo "<table>";
-        echo "<tr><th>Name</th><th>Title</th><th>Comments</th><th>Date and Time</th></tr>";
+        echo "<tr><th>Name</th><th>Title</th><th>Comment/Prayer Request</th><th>Date and Time</th></tr>";
 
         while($row = $result->fetch_assoc()) {
             echo "<tr>";

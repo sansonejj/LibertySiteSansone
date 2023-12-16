@@ -1,4 +1,3 @@
-
 <?php
 //Reference: https://mediastroke.com/blog/php-mysql-connection/
 //This file to be used as include statement to connect to DB throughout my site

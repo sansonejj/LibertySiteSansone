@@ -13,7 +13,7 @@ https://libertyonline.vitalsource.com/books/9781492054085 Chapter 8-->
 <body>
 <div class="navigation">
     <?php
-    include 'week2Nav.php';
+    include '../week2/week2Nav.php';
     ?>
 </div>
 

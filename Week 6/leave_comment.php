@@ -40,19 +40,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['name']) && !empty($_P
 
 <div class="page-header">
     <?php
-    echo "<h1>Leave Us A Comment!</h1>";
+    echo "<h1>Leave Us A Comment, or a Prayer Request</h1>";
     ?>
 </div>
 
 <div class="body" align="center">
+    <h4>If you have a prayer request, or a comment you would like to leave us please submit it below.</h4>
     <form method="post" action="<?php echo  ($_SERVER["PHP_SELF"]);?>" onsubmit="return confirmSubmit()">
         <table>
             <tr>
-                <td><label for="name">Name:</label></td>
+                <td><label for="name">Name (Enter N/A to remain anonymous):</label></td>
                 <td><input type="text" id="name" name="name" required></td>
             </tr>
             <tr>
-                <td><label for="title">Title:</label></td>
+                <td><label for="title">Title (Enter N/A to remain anonymous):</label></td>
                 <td><input type="text" id="title" name="title" required></td>
             </tr>
             <tr>
@@ -77,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['name']) && !empty($_P
     ?>
 </div>
 
-<!--  -->
+
 </body>
 </html>
 

@@ -1,6 +1,10 @@
 <?php include '../database/database_connection.php';
-      include '../authenticated.php';
+      //include '../authenticated.php';
+include '../sessions.php';
+checkUserGroup(['1', '2']); //1= Administrator, 2= Publisher, 3= Customer
+
 ?>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -8,9 +12,9 @@
     <title>Manage Comments</title>
     <link rel="stylesheet" type="text/css" href="../styles.css" />
 </head>
-<body>
+
 <div class="navigation">
-    <?php include '../Week 5/week5Nav.php'; ?>
+    <?php include '../Week 8/admin_nav.php'; ?>
 </div>
 
 <div class="page-header">

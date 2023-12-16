@@ -15,23 +15,6 @@
     ?>
 </div>
 
-<style>
-    .navigation {
-        position: relative;
-    }
-
-    #shoppingCart {
-        position: absolute;
-        top: 0;
-        right: 0;
-        color: white;
-    }
-</style>
-
-<div id="shoppingCart">
-    <!-- Pulls session data from the user session and the items and total in their cart -->
-    <?php include 'shopping_cart.php'; ?>
-</div>
 
 <div class="page-header">
     <?php
